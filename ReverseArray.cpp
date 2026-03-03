@@ -36,3 +36,5 @@ int main()
 	print(newArr, 5);
 	delete[] newArr; //Delete array created by ReverseArray to prevent memory leak
 }
+// Test comment to make sure commits are working correctly.
+// Second test comment.
