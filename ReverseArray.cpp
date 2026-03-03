@@ -34,5 +34,5 @@ int main()
 	print(arr, 5);
 	cout << "Reversed array: ";
 	print(newArr, 5);
-	delete[] newArr;
+	delete[] newArr; //Delete array created by ReverseArray to prevent memory leak
 }
